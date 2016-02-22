@@ -13,19 +13,21 @@ public class Calculator {
 		return 0;
 	}
 	
-	public void add (int value) {
-		
+	public int add (int value) {
+		 return value + total;
 	}
 	
-	public void subtract (int value) {
-		
+	public int subtract (int value) {
+		return total - value;
 	}
 	
-	public void multiply (int value) {
-		
+	public int multiply (int value) {
+		return total * value;
 	}
 	
-	public void divide (int value) {
+	public int divide (int value) {
+		
+		return total / value;
 		
 	}
 	
